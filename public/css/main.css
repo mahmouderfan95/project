@@ -1,0 +1,27 @@
+/* main rules */
+*{
+    box-sizing: border-box;
+    font-family: tahoma,arial;
+}
+/* main rules */
+/* sidebar */
+.sidebar{
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar ul a{
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar */
+/* login page */
+.login{
+    background-color: #EEE;
+    padding: 12%;
+    border-radius: 10px;
+
+}
+/* login page */

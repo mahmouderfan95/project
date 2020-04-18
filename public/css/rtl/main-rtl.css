@@ -1,0 +1,85 @@
+/* main rules */
+*{
+    box-sizing: border-box;
+    text-align: right;
+}
+body{
+    background-color: #EEE;
+}
+.box{
+    padding: 20px;
+    background-color: #FFF;
+    border-top: 2px solid red;
+}
+/* main rules */
+/* navbar */
+.bg-light{
+    background-color: #3498db !important;
+}
+.bg-light .navbar-brand{
+    color: #FFF !important;
+}
+.bg-light .nav-link{
+    color: #FFF !important;
+}
+/* sidebar */
+.sidebar{
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar ul a{
+    font-size: 20px;
+    text-decoration: none;
+    display: inherit;
+    color: #FFF;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s ease-in-out;
+}
+.sidebar ul a:hover{
+    background-color: #FFF;
+    color: black;
+}
+
+/* sidebar */
+/* users page */
+i[name = "search-icon"]{
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    color: #FFF;
+}
+/* users page */
+/* front end */
+/* slider */
+.carousel-caption {
+    position: absolute;
+    top: 35% !important;
+    right: 30% !important;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 35px;
+}
+.carousel-caption p{
+    font-size: 25px;
+}
+/* slider */
+.form-search{
+    margin-left: 10px;
+    display: none;
+}
+.form-search input[type = "search"]{
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+/* form search */
+/* products all */
+.products-all{
+    padding: 30px 0;
+}
